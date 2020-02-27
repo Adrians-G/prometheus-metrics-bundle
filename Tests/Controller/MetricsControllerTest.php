@@ -17,5 +17,6 @@ class MetricsControllerTest extends TestCase
         $controller = new MetricsController($renderer);
         $result = $controller->prometheus();
         $this->assertSame($response, $result);
+        // test
     }
 }
